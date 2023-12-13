@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fts-rtmidi"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
     {name="Ferdinand Oliver M Tonby-Strandborg", email="ferdinand.tonby.strandborg@gmail.com"},
 ]

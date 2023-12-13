@@ -4,3 +4,5 @@ priv_*
 **/__pycache__
 dist/**
 build/**
+dist/**
+fts_rtmidi.*/**

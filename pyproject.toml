@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fts-rtmidi"
-version = "0.0.1"
+version = "0.0.5"
 authors = [
     {name="Ferdinand Oliver M Tonby-Strandborg", email="ferdinand.tonby.strandborg@gmail.com"},
 ]
@@ -17,8 +17,6 @@ classifiers = [
 ]
 requires-python = '>=3.12'
 dependencies = ["python-rtmidi>=1.5.8"]
-package-dir = ["src"]
 
 [project.urls]
-Homepage = ""
-Issues = ""
+Homepage = "https://github.com/Ferdi0412/fts-rtmidi"

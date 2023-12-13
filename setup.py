@@ -8,7 +8,6 @@ root = os.path.abspath(os.path.dirname(__file__))
 
 setup(
     name         = 'fts-rtmidi',
-    version      = '0.0.1',
     author       = 'Ferdinand Oliver M Tonby-Strandborg',
     author_email = 'ferdinand.tonby.strandborg@gmail.com',
     description  = 'Simple class for MIDI control',
@@ -21,5 +20,5 @@ setup(
     install_requires = [
         'python-rtmidi>=1.5.8',
     ],
-    packages = find_packages(include=['src/*']),
+    packages = find_packages(include=['ftsmidi', 'ftsmidi.*']),
 )

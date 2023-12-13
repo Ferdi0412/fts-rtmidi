@@ -1,8 +1,12 @@
+# Allow for priv_ to prefix private files
 priv_*
 **/priv_*
+
+## Byte-optimizied files
 **.pyc
 **/__pycache__
+
+## Build stuff for PyPi
 dist/**
 build/**
-dist/**
 fts_rtmidi.*/**

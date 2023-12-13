@@ -23,6 +23,9 @@ midi.note_off(60)
 
 ```
 
+## MIDI protocol
+For an in-depth explanation of the MIDI format, please see: https://www.cs.cmu.edu/~music/cmsip/readings/davids-midi-spec.htm
+
 # rtmidi
 This uses the **python-rtmidi** library, which is currently available through pypi. All classes here simply wrap the rtmidi classes, and handle formatting the messages.
 <br>To learn more about RtMidi, visit their [PyPi](https://pypi.org/project/python-rtmidi/) page or their [GitHub repository](https://github.com/SpotlightKid/python-rtmidi).
